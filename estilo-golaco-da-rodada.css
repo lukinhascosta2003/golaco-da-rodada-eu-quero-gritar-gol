@@ -1,0 +1,173 @@
+
+
+/* MOBILE */
+
+html {
+    font-size: 25px;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    color: #4D4D4D;
+    font-size: 1.5rem;
+}
+
+#logo {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #4D4D4D;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+}
+
+nav ul {
+    align-items: center;
+    padding: 20px;
+    margin: 0px;
+    list-style: none;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(paisagem-principal.png);
+    color: #FFF;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#botao {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #8F3FAF;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #8F3FAF;
+    color: #FFF;
+}
+
+#servicos-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#portifolio {
+    display: flex;
+    flex-direction: column;
+}
+
+#portifolio img {
+    width: 100%;
+}
+
+p {
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #4D4D4D;
+    color: #FFF
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    align-items: center;
+}
+
+#contato p a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+#contato p {
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #8F3FAF;
+    color: #FFF;
+    padding: 10px;
+    margin: 0px;
+}
+
+#botao-voltar {
+    text-align: right;
+    margin-right: 30px;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1000px) {
+    html {
+        font-size: 50px;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul li a {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    #servicos-total {
+        flex-direction: row;
+    }
+
+    #contato {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #portifolio {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #portifolio img {
+        width: 50%;
+    }
+
+    #botao-voltar {
+    text-align: right;
+    margin-right: 30px;
+    }
+}
